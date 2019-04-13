@@ -1,0 +1,25 @@
+{
+  "name": "three.js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "stats-js": "^1.0.0",
+    "three": "^0.103.0",
+    "three-orbitcontrols": "^2.102.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "eslint": "^5.16.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
