@@ -4,7 +4,7 @@ module.exports = {
         "node": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended", "airbnb-base"],
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
@@ -12,11 +12,11 @@ module.exports = {
     "rules": {
         "indent": [
             "error",
-            2
+            4
         ],
         "linebreak-style": [
             "error",
-            "windows"
+            "unix"
         ],
         "quotes": [
             "error",
