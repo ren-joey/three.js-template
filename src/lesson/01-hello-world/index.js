@@ -1,10 +1,6 @@
 import * as THREE from 'three'
 
-let scene
-let renderer
-let camera
-let pointLight
-let cube
+let scene; let renderer; let camera; let pointLight; let cube
 
 const stageInit = () => {
     scene = new THREE.Scene()
